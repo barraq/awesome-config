@@ -7,6 +7,9 @@
 #
 #######################################################################
 
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
 #   -------------------------------
 #   1.  ENVIRONMENT CONFIGURATION
 #   -------------------------------
@@ -17,7 +20,7 @@ export EDITOR=/usr/bin/vim
 
 #   Set Paths
 
-# export PATH=
+# export PATH=$PATH
 
 #   -----------------------------
 #   2.  MAKE TERMINAL BETTER
@@ -48,18 +51,23 @@ alias cic='set completion-ignore-case On'   # cic:          Make tab-completion 
 trash () { command mv "$@" ~/.Trash ; }     # trash:        Moves a file to the MacOS trash
 ql () { qlmanage -p "$*" >& /dev/null; }    # ql:           Opens any file in MacOS Quicklook Preview
 
+# source extra alias
+if [[ -f ~/.aliasrc ]]; then
+    source ~/.aliasrc
+fi
+
 #   ---------------------------------------
 #   3.  DEVELOPMENT
 #   ---------------------------------------
 
 # Java
 
-# export JAVA_HOME=
-# export JFXRT_HOME=
+# export JAVA_HOME=$JAVA_HOME
+# export JFXRT_HOME=$JFXRT_HOME
 
 # Ruby
 
-export GEM_HOME=~/.gem/ruby/
+# export GEM_HOME=$GEM_HOME
 
 # Run twolfson/sexy-bash-prompt
 . ~/.bash_prompt

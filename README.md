@@ -1,10 +1,15 @@
-Personal Linux desktop configuration.
+Personal Linux/MacOSX desktop configuration.
 
-I put here common configurations/settings/setups/preferences/applications that I used on my different Linux Desktops.
+I put here common configurations/settings/setups/preferences/applications that I used on my different Linux/MacOSX Desktops.
 
 # Desktop
 
-I used Arch Linux, with Gnome and Awesome Window Manager.
+I use Arch Linux, with Gnome and Awesome Window Manager.
+I use MacOSX. MacOSX dedicated stuff is located in MacOSX folder.
+
+## Shell
+
+I use the excellent [@twolfson sexy-bash-prompt](https://github.com/barraq/sexy-bash-prompt)
 
 ## Gnome
 

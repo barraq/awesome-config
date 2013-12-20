@@ -30,6 +30,15 @@ I use the excellent [@twolfson sexy-bash-prompt](https://github.com/barraq/sexy-
 
 * [VolWheel](http://oliwer.net/b/volwheel.html) is a little application which lets you control the sound volume easily through a tray icon you can scroll on.
 
+## Editor
+
+* [SublimeText](http://www.sublimetext.com)
+  * [Package Control](https://sublime.wbond.net/)
+  * Markdown Extensions
+    * https://github.com/jonschlinkert/sublime-markdown-extended
+    * https://github.com/jonschlinkert/sublime-monokai-extended
+  * [Pandoc Extension](https://github.com/tbfisher/sublimetext-Pandoc)
+
 # Links
 
 Some extra links useful for inspiration:
